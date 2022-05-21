@@ -1,0 +1,321 @@
+html {
+    font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.cmn-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.sub-title {
+    display: block;
+    color: #38B6FF;
+}
+
+.main-title {
+    display: block;
+    font-size: 2rem;
+}
+
+.header {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px 16px;
+}
+
+.header-title {
+    font-weight: bold;
+}
+
+/* .header-logo {
+
+} */
+
+.header-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.header-item {
+    /* 1rem = 16px */
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        padding: 0;
+    }
+    .header-list {
+        margin-top: 0;
+    }
+    .header-item {
+        margin-left: 2.5rem;
+    }
+}
+
+/* firstview */
+.firstview {
+    background-image: url(../image/hero.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+
+.firstview-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    height: 100%;
+    letter-spacing: 0.3rem;
+}
+
+.firstview-message .blue {
+    color: #38B6FF;
+}
+
+@media screen and (min-width: 768px) {
+    .firstview-message {
+        font-size: 5.5rem;
+        letter-spacing: 0.5rem;
+    }
+}
+
+/* about */
+.about {
+    max-width: 800px;
+    margin: 120px auto 0;
+    padding: 0 16px;
+}
+
+.about-wrapper {
+    margin-top: 60px;
+}
+
+.about-image {
+    text-align: center;
+}
+
+.about-text {
+    margin-top: 40px;
+}
+
+/* .about-greeting {
+
+} */
+
+.about-subtitle {
+    font-size: 1.5rem;
+    color: #38B6FF;
+    margin-bottom: 0.5rem;
+    font-weight: bold; 
+}
+
+/* .greeting-desc {
+
+} */
+
+.about-career {
+    margin-top: 30px;
+}
+
+/* .about-subtitle {
+
+} */
+
+/* .career-list {
+
+} */
+
+/* .career-item {
+
+} */
+
+@media screen and (min-width: 768px) {
+    .about-wrapper {
+        display: flex;
+    }
+
+    .about-text {
+        margin-top: 0;
+        margin-left: 80px;
+    }
+}
+
+
+/* skills */
+.skills {
+   max-width: 1024px;
+   margin: 120px auto 0;
+   padding: 0 16px;
+}
+
+.skill-list {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px 20px;
+}
+
+/* .skill-item {
+    
+} */
+
+.skill-image {
+    height: 180px;
+    text-align: center;
+}
+
+.skill-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.skill-desc {
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .skill-list {
+        max-width: 500px;
+        margin: 60px auto 0;
+    }
+    .skill-item {
+        width: 230px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .skill-list {
+        max-width: 100%;
+    }
+}
+
+/* works */
+.works {
+  max-width: 900px;
+  margin: 120px auto 0;  
+}
+
+.work-list {
+    margin-top: 60px;
+}
+
+.work-item {
+    margin-top: 45px;
+}
+
+.work-item.reverse {
+    flex-direction: row-reverse;
+}
+
+/* .work-image {
+
+} */
+
+.work-image img {
+    width: 100%;
+}
+
+.work-text {
+    margin-top: 2rem;
+}
+
+/* .work-title {
+    
+} */
+
+/* .work-skill {
+
+} */
+
+/* .work-time {
+
+} */
+
+.work-desc {
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .work-item {
+        display: flex;
+        gap: 0 50px;
+    }
+    .work-image {
+        width: 50%;
+    }
+    .work-text {
+        width: 50%;
+        padding: 0;
+    }
+    
+}
+
+/* contact */
+.contact {
+    margin: 120px 0;
+    text-align: center;
+}
+
+.contact-text {
+    margin-top: 60px;
+} 
+
+/* .contact-message {
+
+} */
+
+.contact-mail {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.icon-area {
+    margin-top: 30px;
+}
+
+.icon-area .fab {
+    font-size: 2rem;
+    margin: 0 1rem;
+}
+
+.footer {
+    background-color: #ddd;
+    padding: 30px 16px 10px;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.footer-item {
+    font-size: 1.2rem;
+}
+
+.copyright {
+    margin-top: 2rem;
+    text-align: center;
+}
