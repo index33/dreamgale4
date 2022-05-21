@@ -1,0 +1,111 @@
+@import url(../css/riset.css);
+@import url(../css/slick-theme.css);
+@import url(../css/slick.css);
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap");
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #222;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+a:hover {
+  color: #0066CC;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+}
+
+h3 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+.contact {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact h4 {
+  font-size: 40px;
+}
+
+.contact form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px 0 100px;
+}
+
+.contact form label {
+  font-size: 20px;
+  margin: 30px 0 5px;
+}
+
+.contact form input {
+  width: 400px;
+  height: 30px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 6px;
+  font-size: 16px;
+}
+
+.contact form textarea {
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  font-size: 16px;
+}
+
+.contact form .submit {
+  background-color: #F1F1F1;
+  width: 200px;
+  height: 80px;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+}
+
+@media (max-width: 599px) {
+  .contact {
+    width: 100%;
+    padding: 0 15px;
+    margin-top: 80px;
+  }
+  .contact h4 {
+    font-size: 26px;
+  }
+  .contact form label {
+    font-size: 16px;
+  }
+  .contact form input,
+  .contact form textarea {
+    width: 100%;
+  }
+  .contact form .submit {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=contact.css.map */
