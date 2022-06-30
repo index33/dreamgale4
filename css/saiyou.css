@@ -1,0 +1,48 @@
+@import url(../css/riset.css);
+@import url(../css/slick-theme.css);
+@import url(../css/slick.css);
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap");
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #222;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+a:hover {
+  color: #0066CC;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+}
+
+h3 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+.saiyou {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/*  sp  */
+@media (max-width: 599px) {
+  .saiyou {
+    width: 100%;
+    padding: 0 15px;
+    margin-top: 80px;
+  }
+}
+/*# sourceMappingURL=saiyou.css.map */

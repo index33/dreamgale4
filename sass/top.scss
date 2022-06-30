@@ -1,5 +1,24 @@
 @import '../sass/common.scss';
 
+html { 
+    scroll-behavior: smooth;
+}
+
+.button{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    font-size: 30px;
+    color: #fff;
+    /* background: #000; */
+    padding: 10px;
+    cursor: pointer;
+    transition: 3s;
+    /*デフォルトで非表示にする*/
+    opacity: 0;
+    visibility: hidden;
+}
+
 .container {
     width: 100%;
     margin: 0 auto;
