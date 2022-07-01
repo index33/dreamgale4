@@ -1,0 +1,15 @@
+@import '../sass/common.scss';
+
+.saiyou {
+    max-width: 900px;
+    margin:0 auto;
+}
+
+/*  sp  */
+@media (max-width:599px) {
+    .saiyou {
+        width: 100%;
+        padding: 0 15px;
+        margin-top: 80px;
+    }
+}
